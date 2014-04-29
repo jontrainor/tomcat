@@ -154,6 +154,8 @@
             <% end -%>
             >
 
+            <Context path="" docBase=<%= node['tomcat']['context_dir'] %> allowLinking="true" reloadable="true" />
+
         <!-- SingleSignOn valve, share authentication between web applications
              Documentation at: /docs/config/valve.html -->
         <!--
